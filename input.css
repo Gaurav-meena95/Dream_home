@@ -1,2 +1,17 @@
 @import "tailwindcss";
 
+@layer components {
+  .btn {
+    border-radius: 5px;
+    background-color: rgb(52, 22, 22);
+    color: white;
+    width: 5vw;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .primary{
+    @apply bg-amber-50 flex justify-center items-center w-60 h-10 rounded text-center hover:cursor-pointer ;
+  }
+}

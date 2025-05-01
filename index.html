@@ -1,25 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <title>Dream Home</title>
 </head>
-<body class="bg-amber-200 text-white">
-  <nav>
+
+<body class="bg-amber-100 h-screen  ">
+  <nav class="flex justify-between gap-1 p-6">
 
     <div class="logo ">
       <img class="" src="photos/logo.png" alt="">
     </div>
     <div class="list">
-
+      <ul class="flex justify-between items-center [&>*]:mx-3">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Agents</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-    <div class="search">
-
+    <div class="search flex justify-between items-center  [&>*]:mx-3  ">
+      <img class="w-5 h-5" src="photos/icon/search.1024x1022.png" alt="">
+      <img class="w-5 h-5" src="photos/icon/user.929x1024.png" alt="">
+      <button class="btn">Sign Up</button>
     </div>
 
   </nav>
+  <div class="flex justify-around my-[-12vh]  items-center mx-20 h-screen">
+    <div class=" my-10 ">
+      <h1 class="text-6xl my-10">Find Your Dream Home</h1>
+      <p class="text-2xl my-10 text-gray-400">Explore our curated selection of exquisite properties meticulously tailored to
+        your unique dream home vision</p>
+      <button class="btn">Sign up</button>
+    </div>
+    <div class="img">
+      <img class="size-full" src="photos/img1.png" alt="">
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center h-screen my-[-45vh]">
+
+
+    <div class=" flex justify-center items-center py-15  [&>*]:mx-3  bg-yellow-600 size-3/4 h-1/11 rounded-2xl">
+      <div class="primary">
+        <p>Loction</p>
+      </div>
+      <div class="primary ">
+        Type
+      </div>
+      <div class="primary ">
+        Price Range
+      </div>
+      <div class="btn">
+        <button class="btn">Sign up</button>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-around items-center my-10 ">
+    <div class="pic">
+      <img   src="photos/img2.png" alt="">
+    </div>
+    <div class="text">
+      <h1>We Help You To Find Your Dream Home</h1>
+      <p>From cozy cottages to luxurious estates, our dedicated team guides you through every step of the journey, ensuring your dream home becomes a reality</p>
+      <div class=" flex justify-around items-center  ">
+        <div class="k1">
+          <h1>8K+</h1>
+          <p>Houses Available</p>
+        </div>
+        <div class="k1">
+          <h1>8K+</h1>
+          <p>Houses Available</p>
+        </div>
+        <div class="k1">
+          <h1>8K+</h1>
+          <p>Houses Available</p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
 
 </body>
+
 </html>
